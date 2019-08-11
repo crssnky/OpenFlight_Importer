@@ -2,7 +2,7 @@
 
 #include "CoreMinimal.h"
 #include "Modules/ModuleManager.h"
-#include "IBlankPlugin.h"
+#include "IOpenFlight_Importer.h"
 
 
 class FOpenFlight_Importer : public IOpenFlight_Importer
@@ -12,7 +12,7 @@ class FOpenFlight_Importer : public IOpenFlight_Importer
 	virtual void ShutdownModule() override;
 };
 
-IMPLEMENT_MODULE(FOpenFlight_Importer, BlankPlugin)
+IMPLEMENT_MODULE(FOpenFlight_Importer, OpenFlight_Importer)
 
 
 
