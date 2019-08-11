@@ -1,0 +1,25 @@
+{
+	"FileVersion" : 3,
+	"Version" : 1,
+	"VersionName" : "1.0",
+	"FriendlyName" : "OpenFlight Importer",
+	"Description" : "Add importable extension '.flt' for StaticMesh",
+	"Category" : "StaticMesh Importer",
+	"CreatedBy" : "JON's",
+	"CreatedByURL" : "",
+	"DocsURL" : "",
+	"MarketplaceURL" : "",
+	"SupportURL" : "",
+	"EnabledByDefault" : false,
+	"CanContainContent" : false,
+	"IsBetaVersion" : true,
+	"Installed" : false,
+	"Modules" :
+	[
+        {
+            "Name": "OpenFlight_Importer",
+            "Type": "Editor",
+            "LoadingPhase": "Default"
+        }
+	]
+}
